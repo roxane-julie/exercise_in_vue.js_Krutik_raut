@@ -11,10 +11,11 @@ import Header from "../src/components/Header.vue"
 
 
 
+
 </script>
 
 
-<style scoped>
+<style>
 
 @font-face {
   font-family: 'poppins';

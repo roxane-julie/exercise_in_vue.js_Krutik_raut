@@ -2,10 +2,24 @@
     <div id="hello">
         <h1>Hello,<br/> I am <span class="name">Roxane Breton</span></h1>
         <p class="work">Developpeur web/mobile</p>
-    </div>
+
+        <Button content="Contact" background="ffffff" color="000000"/>
+        <Button content="About" background="5E3AEE" color="ffffff"/>
+
+        <Laptop/>
+</div>
+        <Numbers/>
+
+        <AbitAboutMe/>
+
+    
 </template>
 
 <script setup>
+import Button from './Button.vue'
+import Laptop from './Laptop.vue'
+import Numbers from './Numbers.vue'
+import AbitAboutMe from './aBitAbout.vue'
 </script>
 
 <style>
@@ -22,13 +36,14 @@
     margin:20px;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 200px;
+    
     }
 #hello h1{
     text-align: center;
     font-weight: 700;    
     font-family: 'poppins-semi-bold';
     margin: 0;
+    
 }
 
 #hello .name {
@@ -37,6 +52,7 @@
 #hello .work {
     color: #696969;
     margin: 0;
+    font-size: 14px;
    
     
 }
