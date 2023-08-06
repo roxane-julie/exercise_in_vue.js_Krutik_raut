@@ -1,5 +1,5 @@
 <template>
-    <a id="button" :style="{ 'backgroundColor': '#' + background }">
+    <a id="button" :style="{ 'backgroundColor': '#' + background, color: '#' + color }">
         {{ props.content }}
     </a>
 </template>

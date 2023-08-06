@@ -8,7 +8,7 @@
 
         <Laptop/>
 </div>
-        <Numbers/>
+        <InfoCounter/>
 
         <AbitAboutMe/>
 
@@ -18,8 +18,8 @@
 <script setup>
 import Button from './Button.vue'
 import Laptop from './Laptop.vue'
-import Numbers from './Numbers.vue'
 import AbitAboutMe from './aBitAbout.vue'
+import InfoCounter from './InfosCounter.vue'
 </script>
 
 <style>
