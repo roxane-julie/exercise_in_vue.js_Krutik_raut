@@ -10,7 +10,6 @@
 </div>
         <InfoCounter/>
 
-        <AbitAboutMe/>
 
     
 </template>
@@ -18,7 +17,6 @@
 <script setup>
 import Button from './Button.vue'
 import Laptop from './Laptop.vue'
-import AbitAboutMe from './aBitAbout.vue'
 import InfoCounter from './InfosCounter.vue'
 </script>
 
