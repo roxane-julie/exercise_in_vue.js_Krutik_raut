@@ -13,7 +13,7 @@
                     <template #content>{{ counter[1].content }}</template>
                 </Counter>
             </div>
-
+            <div  v-if="index === data.length -1" class="separator"></div>
         </div>
 
     </div>
